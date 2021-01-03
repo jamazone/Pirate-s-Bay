@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if OUI
+using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
@@ -170,3 +171,4 @@ public class FPSWalkerEnhanced : MonoBehaviour
         print("Ouch! Fell " + fallDistance + " units!");
     }
 }
+#endif
