@@ -1,3 +1,4 @@
+#if OUI
 using UnityEngine;
 using UnityEngine.Rendering;
 using System.Collections;
@@ -1804,3 +1805,4 @@ public class HxVolumetricLight : MonoBehaviour
     bool matrixReconstruct = true;
 
 }
+#endif
